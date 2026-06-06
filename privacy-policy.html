@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>家常菜谱隐私政策</title>
+    <style>
+      :root {
+        --bg: #f5f0e4;
+        --surface: #fffdf8;
+        --ink: #1f3829;
+        --muted: #5f6f63;
+        --line: #d8d1c1;
+        --accent: #2f6b4f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(161, 190, 145, 0.22), transparent 28%),
+          radial-gradient(circle at top right, rgba(218, 194, 146, 0.18), transparent 22%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "PingFang SC", "Noto Sans SC", "Helvetica Neue", sans-serif;
+        line-height: 1.7;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 56px 20px 80px;
+      }
+
+      article {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 32px 24px;
+        box-shadow: 0 16px 40px rgba(31, 56, 41, 0.08);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 16px;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        font-size: clamp(32px, 5vw, 44px);
+        line-height: 1.08;
+      }
+
+      h2 {
+        margin-top: 28px;
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        font-size: 15px;
+      }
+
+      p.meta {
+        margin: 0 0 20px;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 20px;
+        margin: 12px 0;
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        background: #eef2eb;
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>家常菜谱隐私政策</h1>
+        <p class="meta">更新日期：2026-06-05</p>
+
+        <p><code>家常菜谱</code> 是一个面向家庭成员共享使用的菜谱、库存和小票入库应用。本政策说明我们会收集哪些信息、如何使用这些信息，以及你有哪些控制权。</p>
+
+        <h2>1. 我们收集的信息</h2>
+        <ul>
+          <li>账号信息：邮箱地址、登录凭证相关信息。</li>
+          <li>家庭数据：家庭名称、家庭成员、菜谱、库存、点菜记录、做饭记录。</li>
+          <li>小票与图片：你主动上传或拍摄的小票图片，以及 OCR/AI 解析出的文字和结构化结果。</li>
+          <li>设备通知信息：用于发送点菜、接受、拒绝等推送通知的设备推送令牌。</li>
+          <li>应用运行信息：基础错误信息和必要的服务日志，用于排查故障与保障稳定性。</li>
+        </ul>
+
+        <h2>2. 我们如何使用这些信息</h2>
+        <ul>
+          <li>创建和维护你的家庭厨房空间。</li>
+          <li>保存菜谱、库存、小票识别结果和做饭记录。</li>
+          <li>向家庭成员同步点菜、库存和做饭相关数据。</li>
+          <li>发送与家庭协作相关的推送通知。</li>
+          <li>改善识别质量、修复错误并保障服务稳定。</li>
+        </ul>
+
+        <h2>3. 图片与 AI 处理</h2>
+        <ul>
+          <li>小票图片会上传到受权限控制的私有存储。</li>
+          <li>图片文字会通过 OCR 服务提取。</li>
+          <li>OCR 结果可能会发送给 AI 模型用于结构化解析、名称归一化和分类建议。</li>
+          <li>AI 结果不会直接修改库存，仍需你确认后才会入库。</li>
+        </ul>
+
+        <h2>4. 数据共享</h2>
+        <p>你的数据默认只在你所属的家庭空间内共享给家庭成员。我们不会将你的家庭数据公开展示给其他用户。</p>
+        <p>我们可能会使用第三方基础设施提供服务，包括 Supabase、Google Cloud Vision、DeepSeek、Expo 与 Apple。这些服务仅在提供对应功能时按需处理必要数据。</p>
+
+        <h2>5. 数据保存与删除</h2>
+        <ul>
+          <li>账号、菜谱、库存、小票与家庭协作数据会持续保存，直到你主动删除相关内容或停止使用服务。</li>
+          <li>某些记录可能出于库存追踪和审计需要保留关联流水，而不是立即物理删除。</li>
+          <li>如你希望删除账号或导出/清理相关数据，可联系应用维护者。</li>
+        </ul>
+
+        <h2>6. 你的控制权</h2>
+        <ul>
+          <li>修改或删除菜谱、库存、小票确认结果和做饭记录。</li>
+          <li>关闭通知权限。</li>
+          <li>停止上传图片。</li>
+          <li>请求删除账号及相关个人数据。</li>
+        </ul>
+
+        <h2>7. 儿童隐私</h2>
+        <p>本应用不面向 13 岁以下儿童独立使用。若发现未经监护人同意收集了儿童个人信息，我们会尽快删除相关数据。</p>
+
+        <h2>8. 安全措施</h2>
+        <ul>
+          <li>家庭级别的数据访问控制。</li>
+          <li>私有存储桶保存小票图片。</li>
+          <li>服务端密钥不放在客户端。</li>
+          <li>关键写入操作通过服务端函数或数据库过程执行。</li>
+        </ul>
+
+        <h2>9. 政策更新</h2>
+        <p>如果本政策发生重要更新，我们会在应用版本更新或相关页面中提示。</p>
+
+        <h2>10. 联系方式</h2>
+        <p>如有隐私相关问题，可联系应用维护者：<a href="mailto:danielfchy@gmail.com">danielfchy@gmail.com</a></p>
+      </article>
+    </main>
+  </body>
+</html>
+
